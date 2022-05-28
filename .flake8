@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 120
+# ignore "whitespace before ':' since it conflicts with black"
+extend-ignore = E203
+show-source = True
+doctests = True
